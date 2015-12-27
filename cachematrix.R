@@ -23,7 +23,7 @@
  +cacheSolve <- function(x=matrix(), ...) {
  +    m <- x$getmatrix()
  +    if(!is.null(m)){
- +      message("getting cached data")
+ +      message("retrieving data")
  +      return(m)
  +    }
  +    matrix <- x$get()
